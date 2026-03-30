@@ -1,62 +1,33 @@
 # 🏦 AI-Powered Bank Customer Churn Prediction System
 
-### 📌 Project Overview
-This is a professional, end-to-end Machine Learning application designed to predict customer churn in the Indian banking sector. Highlighting both technical ML expertise and business-driven decision-making, this project is built to be **portfolio-ready** with a premium, modern UI.
+# 🏦 Indian Bank Customer Churn Prediction System
+
+### 🔗 [LIVE DEMO - VIEW PROJECT](https://bank-customer-churn-prediction-p9iabpwp37pksd6fdpnjie.streamlit.app/)
 
 ---
 
-### 🚀 Key Features
-- **Premium UI/UX:** Modern Streamlit dashboard with glassmorphism, custom CSS, and intuitive navigation.
-- **Realistic Dataset:** Modeled after Indian banking customer behaviors and demographics.
+### 📌 Overview
+This is a professional, end-to-end Machine Learning application designed to predict customer churn in the Indian banking sector. Built for **placement readiness**, this project demonstrates technical ML expertise, data storytelling, and business-driven decision-making through a premium, modern UI.
+
+---
+
+### 🚀 Features
+- **Premium UI/UX:** Single-page dashboard with sidebar navigation, glassmorphism, and custom CSS.
+- **Realistic Dataset:** Modeled after Indian banking customer behaviors and demographics (100K records).
 - **Advanced Engineering:** Domain-specific features like *Balance-to-Salary ratio* and *High-Balance-Low-Activity* flags.
-- **Optimized XGBoost Model:** Fine-tuned to prioritize **Recall**, ensuring high-risk churners are identified accurately.
+- **Optimized XGBoost Model:** Fine-tuned via `RandomizedSearchCV` to prioritize **Recall (90.3%)**, ensuring high-risk churners are identified.
 - **Actionable Insights:** Translates ML predictions into tiered business retention strategies.
 
 ---
 
-### 🧠 Machine Learning Pipeline
-1. **Exploratory Data Analysis (EDA):** Deep dive into churn drivers using Plotly and Seaborn.
-2. **Feature Engineering:** Creating behavioral indicators to capture hidden customer intent.
-3. **Model Selection:** Comparison between Random Forest (Baseline) and XGBoost (Final).
-4. **Evaluation:** Detailed analysis using Confusion Matrices and Classification Reports.
-5. **Deployment:** Interactive web app with live prediction capabilities.
-
----
-
-### 📂 Project Structure
-```text
-IndiaBankChurnPrediction/
-├── app.py                      # Main landing page
-├── ui_components.py            # Centralized UI styling & components
-├── hero.png                    # Professional hero image
-├── xgb_model.pkl               # Optimized XGBoost model
-├── scaler.pkl                  # Data scaler artifact
-├── encoder.pkl                 # Categorical encoder artifact
-├── model_features.pkl          # Feature alignment metadata
-├── indian_bank_customer_churn.csv # Raw dataset
-├── indian_bank_customer_churn_featured.csv # Engineered dataset
-├── pages/                      # Multipage application modules
-│   ├── Overview.py
-│   ├── Analysis.py
-│   ├── Engineering.py
-│   ├── Evaluation.py
-│   ├── Prediction.py
-│   └── Strategy.py
-├── 01_Exploratory_Data_Analysis.ipynb
-└── 02_Model_Training_Pipeline.ipynb
-```
-
----
-
-### 🛠️ Tech Stack
-- **Language:** Python
-- **ML Frameworks:** Scikit-Learn, XGBoost
-- **Data Analysis:** Pandas, NumPy
-- **Visualization:** Plotly, Seaborn, Matplotlib
-- **Deployment:** Streamlit (with Custom CSS)
+### 📂 Data Sources
+- **Primary Data**: A synthetic dataset of 100,000 customers modeled after the Indian banking landscape.
+- **Demographics**: Information including Age, Gender, and Regional State within India.
+- **Behavioral Data**: Banking metrics such as Balance, Estimated Salary, and Number of Products.
+- **Target Variable**: `Churn` (1 = Customer left the bank, 0 = Customer stayed).
 
 ---
 
 ### 👩‍💻 Author
 **Pooja Dhamale**  
-*Machine Learning & Data Science Enthusiast*
+*Machine Learning & Data Science Specialist*
