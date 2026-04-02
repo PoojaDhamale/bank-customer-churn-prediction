@@ -1,4 +1,4 @@
-# 🏦 Indian Bank Customer Churn Prediction System
+# 🏦Customer Churn Prediction System
 
 ### 🔗 [LIVE DEMO - VIEW PROJECT](https://bank-customer-churn-prediction-p9iabpwp37pksd6fdpnjie.streamlit.app/)
 
